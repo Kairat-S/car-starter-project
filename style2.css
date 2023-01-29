@@ -1,0 +1,53 @@
+body {
+  background: linear-gradient(-45deg, #13b6e7, #098fc4, #35b8e7, #23d5ab);
+  //text-align: left;
+  //margin: auto;
+}
+
+.Managar {
+  display: flex;
+  //gap: 30;
+  //flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.text {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  margin: 0;
+  width: 360px;
+}
+
+/* div {
+  display: flex;
+  width: 360 px;
+  //flex-direction: column;
+  //align-items: center;
+  //justify-content: center;
+  //margin-top: 50px;
+} */
+
+h1 {
+  text-align: center;
+}
+
+/* h2 {
+  //margin-block-start: ;
+  //margin-block-end: auto;
+  text-align: center;
+  //padding: auto;
+} */
+
+img {
+  float: left; /* Выравнивание по левому краю */
+  margin: 0px 15px 15px 15px; /* Отступы вокруг картинки */
+  object-fit: cover;
+  border-radius: 90%;
+}
+
+p {
+  margin-top: auto;
+}
